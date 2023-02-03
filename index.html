@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="header top"></div>
+        <div class="header bottom"></div>
+        <h1>Ocarina</h1>
+        <div class="container-ocarina">
+            <img src="./imagens/ocarina.png" alt="">
+        </div>
+        <div class="keys">
+            <div data-key="keya" class="key">A</div>
+            <div data-key="keys" class="key">S</div>
+            <div data-key="keyd" class="key">D</div>
+            <div data-key="keyf" class="key">F</div>
+            <div data-key="keyg" class="key">G</div>
+        </div>
+        <div class="composer">
+            <input type="text" id="input" placeholder="Faça uma composição..." />
+            <button><h3>Tocar</h3></button>
+        </div>
+        <footer>Art by Jeremy Fenske</footer>
+        <audio id="s_keya" src="./sounds/Keya.wav"></audio>
+        <audio id="s_keys" src="./sounds/Keys.wav"></audio>
+        <audio id="s_keyd" src="./sounds/Keyd.wav"></audio>
+        <audio id="s_keyf" src="./sounds/Keyf.wav"></audio>
+        <audio id="s_keyg" src="./sounds/Keyg.wav"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

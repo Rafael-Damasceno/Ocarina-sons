@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.bg{
+    height: 100vh;
+    background-image: url('./imagens/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    background-image: linear-gradient(to right, #402605 , #D9AA1C, #9B690A);
+    height: 10px;
+    width: 100%;
+}
+
+.top{
+    position: absolute;
+    top: 0px;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0px;
+}
+
+.container-ocarina{
+    width: 200px;
+}
+
+.container-ocarina img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    color: #402605;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.keys{
+    position: absolute;
+    left: 0;
+    color: #FFF;
+}
+
+.key {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #D9AA1C;
+    text-shadow: 1px 1px 1px #000;
+    color: #9B690A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.key.active{
+    border: 2px solid #402605;
+    color: #402605;
+}
+
+.composer {
+    width: 260px;
+    margin-top: 20px;
+}
+
+.composer #input {
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+
+.composer #input:hover{
+    border: 1px solid #D9AA1C;
+}
+
+.composer #input:focus{
+    border: 1px solid #D9AA1C;
+}
+
+.composer button {
+    text-shadow: 1px 1px 1px #000;
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid #D9AA1C;
+    color: #9B690A;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.composer button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
